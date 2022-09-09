@@ -4,13 +4,12 @@ public class MoodAnalyzer {
     //AnalyzeMood function
 
     public static String analyzeMood(String message){
-        if(message.contains("Happy")) {
-            System.out.println("I am in Happy Mood");
-            return "HAPPY";
+        if(message.contains("Sad")) {
+            System.out.println("I am in sad Mood");
+            return "SAD";
         }
         else{
-            System.out.println("In sad Mood");
-            return "SAD";
+            return "HAPPY";
 
         }
     }
