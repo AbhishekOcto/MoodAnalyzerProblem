@@ -8,6 +8,7 @@ public class MoodAnalyzer {
 
     }
     //AnalyzeMood function
+
     public String analyzeMood(){
         if(message.contains("Sad")) {
             System.out.println("I am in sad Mood");
@@ -15,6 +16,7 @@ public class MoodAnalyzer {
         }
         else{
             return "HAPPY";
+
         }
     }
 }
